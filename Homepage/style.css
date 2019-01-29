@@ -1,0 +1,85 @@
+:root{
+  --gold-yellow:#fedc14;
+  --pure-white: #f2f4ff;
+  --black-gray: #202020;``
+  --white-gray: #777777;
+}
+body{
+  margin:0;
+}
+
+#doc-box{
+  position: fixed;
+  display: flex;
+  width:100vw;height:100vh;
+  background-color:var(--pure-white);
+  box-shadow: inset 0 0 0 20px var(--black-gray);
+}
+.bar-icon-container{
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 20px;
+  background-color: var(--black-gray);
+}
+#main{
+  margin:auto;
+}
+#searchBar{
+  display: inline-block;
+  width: 500px;
+  height: 50px;
+  font-size: 40px;
+  font-family:"Avenir Next";
+  background: transparent;
+  border:none;
+  border-bottom: solid var(--white-gray) 2px;
+  box-shadow: 0 4px 2px -3px var(--white-gray);
+  text-shadow: 3px 1px 3px var(--white-gray);
+  font-weight:100;
+  transition: 0.4s ease-in;
+  text-align: center;
+  caret-color: var(--white-gray);
+}
+#searchBar:hover{
+  transition: 0.4s ease-in;
+}
+
+
+
+
+
+
+/* draw the burger  */
+.appIconBox{
+  position:absolute;
+  top:40px;left:40px;
+  width:60px;height:60px;
+  background-color: var(--black-gray);
+}
+.appIcon{
+  position:relative;
+  top:20%;
+  margin:auto;
+  width:60%;
+  height:60%;
+}
+.iconLine{
+  background-color: white;
+  position: relative;
+}
+.Line1{
+  width:100%;
+  height:5px;
+  margin:auto;
+  top:15.5px;
+}
+.Line2{
+  height:100%;
+  width:5px;
+  margin:auto;
+  bottom:5px;
+}
+.
