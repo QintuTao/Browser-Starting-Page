@@ -65,6 +65,7 @@ body{
   margin:auto;
   width:60%;
   height:60%;
+  transition: 300ms;
 }
 .iconLine{
   background-color: white;
@@ -81,5 +82,9 @@ body{
   width:5px;
   margin:auto;
   bottom:5px;
+}
+.appIcon:hover{
+  transform: rotate(270deg);
+  transition: 600ms;
 }
 .
