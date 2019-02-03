@@ -13,9 +13,6 @@ $(document).ready(function() {
   let $menu = $(".appIcon");
 
   $menu.on("click", function(event) {
-    $menu.css({
-      'animation':"rotatebox 1s"
-    });
     if ($(".menu-links").hasClass("closed")){
       $(".menu-links").removeClass("closed");
     }else{
