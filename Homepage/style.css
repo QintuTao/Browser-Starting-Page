@@ -105,4 +105,5 @@ body{
 }
 .closed{
   display:none;
+  translate: 200ms;
 }

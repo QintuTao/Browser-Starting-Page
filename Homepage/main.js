@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+  // initializing values
+  let $menu = $(".appIcon");
+  let $apps = $(".appLink");
   // initializing the searchBar
   $("#searchBar").on("keydown", function(event){
     if(event.which == "13"){
@@ -10,13 +12,11 @@ $(document).ready(function() {
     }
   });
 
-  let $menu = $(".appIcon");
 
-  $menu.on("click", function(event) {
-    if ($(".menu-links").hasClass("closed")){
-      $(".menu-links").removeClass("closed");
-    }else{
-      $(".menu-links").addClass("closed");
-    }
+
+  $menu.click(function(event) {
+    $apps.toggle("fast", function() {
+
+    })
   })
 });
