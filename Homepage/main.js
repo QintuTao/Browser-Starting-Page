@@ -2,6 +2,7 @@ $(document).ready(function() {
   // initializing values
   let $menu = $(".appIcon");
   let $apps = $(".appLink");
+  $apps.hide();
 
   // initializing the searchBar
   $("#searchBar").on("keydown", function(event){
